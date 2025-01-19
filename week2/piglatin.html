@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pig Latin Translator</title>
+   <script src="piglatin.js"></script>
+</head>
+<body>
+    <script>
+        var phrase = prompt("Enter a phrase");
+        
+        // to separate the phrase into words by spaces it displays an array
+        const words = phrase.split(" ");
+
+        // check how many words in the phrase are
+        const wordsnumber = words.length; 
+
+        // declaring a string with nothing to add the words
+        let str = '';
+
+        // loop for check every word (i is for indice)
+        for (var i = 0; i < wordsnumber; i++) {
+            str = str + " " + translator(words[i]);
+        }
+
+        document.write("You entered - ", str);
+
+    </script>
+
+    
+    
+</body>
+</html>
