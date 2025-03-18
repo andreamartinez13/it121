@@ -1,0 +1,17 @@
+{
+  "name": "week10 HW",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "andreaenriquezmartinez",
+  "license": "ISC",
+  "description": "",
+  "type": "module", 
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andreamartinez13/it121.git"
+  }
+}
